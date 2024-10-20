@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5888659060745539702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4225937035646244498}
+  - component: {fileID: 1779465280990105982}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Audio Manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4225937035646244498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888659060745539702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.296796, y: -0.124592915, z: -0.22682342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1779465280990105982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888659060745539702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e18be8fa0c9d749a97686cf61dfb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerMove
+    clip: {fileID: 8300000, guid: 183d2dea91cdfe542ad16d8f410bdea1, type: 3}
+    volume: 0.376
+    pitch: 0.98
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Splash
+    clip: {fileID: 8300000, guid: 83d59be216d95a94bace601a184ebe3d, type: 3}
+    volume: 0.408
+    pitch: 0.98
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Tongue
+    clip: {fileID: 8300000, guid: 0cbbfb86674bb6a42bd731a3d3501743, type: 3}
+    volume: 0.408
+    pitch: 0.98
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: BGMusic
+    clip: {fileID: 8300000, guid: d51036bc45d81ec4ab97dc966f6dce38, type: 3}
+    volume: 0.082
+    pitch: 1
+    loop: 1
+    mixerGroup: {fileID: -1949950124786694681, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Whoosh
+    clip: {fileID: 8300000, guid: 4fec41b04b68cdf49a3927a13f160ce8, type: 3}
+    volume: 0.207
+    pitch: 1.61
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Star
+    clip: {fileID: 8300000, guid: 4ac07e0118fc55441b31d19cc6a907ed, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Burn
+    clip: {fileID: 8300000, guid: 71994622bc1111d4ca4413775630ad1a, type: 3}
+    volume: 0.358
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}
+  - name: Rock Crack
+    clip: {fileID: 8300000, guid: ed7624c454d28ba4989955cd4b93cbef, type: 3}
+    volume: 0.358
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -8441563280910215053, guid: f6108393c1ea7a74c8e4c8813aa6f4d7, type: 2}
+    source: {fileID: 0}

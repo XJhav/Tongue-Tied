@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pushable
+  - Unpushable
+  - New Ground
+  - UIManager
+  - Audio Manager
+  - Music Loader
+  - Level Manager
+  - Star
+  - Dialogue Text
+  - Dialogue Box
+  - Level Complete Stuff
+  - UndoManager
+  - LostText
+  - Cracked
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Pullable
+  - Water
+  - UI
+  - Unpullable
+  - Ground
+  - NewGround
+  - Lily Pads
+  - Ice
+  - Player
+  - Magma
+  - Cracked Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
